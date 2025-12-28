@@ -66,12 +66,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10px;
+    gap: 5px;
 
     padding: 6px 12px;
     border-radius: 20px;
     border: 1px solid hsl(12, 20%, 44%);
     background: white;
+    color: hsl(14, 65%, 9%);
     font-weight: 700;
     cursor: pointer;
 
@@ -381,7 +382,7 @@ hr {
   }
 
   .item-btn {
-    bottom: 90px;
+    bottom: 105px;
     min-width: 160px;
     height: 40px;
     font-size: 14px;

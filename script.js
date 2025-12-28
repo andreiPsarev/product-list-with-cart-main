@@ -215,7 +215,7 @@ function updateProductButtons() {
       btn.classList.remove("active");
       btn.innerHTML = `
         <img src="assets/images/icon-add-to-cart.svg" width="20" />
-        Add to Cart
+        <p>Add to Cart</p>
       `;
     }
   });
