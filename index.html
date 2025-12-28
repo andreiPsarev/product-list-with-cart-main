@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <main class="layout">
+      <section class="products">
+        <h1>Desserts</h1>
+        <div id="product-list" class="product-list"></div>
+      </section>
+
+      <aside class="cart">
+        <h2>Your Cart (<span id="cart-count">0</span>)</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <div id="cart-total" class="cart-total hidden">
+          <p id="order-total">Order Total</p>
+          <span id="total-price"></span>
+        </div>
+        <button id="confirm-btn" class="confirm hidden">Confirm Order</button>
+      </aside>
+    </main>
+
+    <div id="overlay" class="hidden"></div>
+
+    <div id="modal" class="hidden">
+      <h1>Order Confirmed</h1>
+      <div id="modal-cart-items" class="modal-cart-items"></div>
+      <div class="cart-total">
+        <p>Order Total</p>
+        <span id="modal-total-price">$0.00</span>
+      </div>
+      <button id="close-modal">Start New Order</button>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
