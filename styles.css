@@ -379,6 +379,7 @@ hr {
   .img-item {
     width: 100%;
     max-width: 100%;
+    border-radius: 8px;
   }
 
   .item-btn {
