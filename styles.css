@@ -382,6 +382,10 @@ hr {
     border-radius: 8px;
   }
 
+  .card.active .img-item {
+    outline: 3px solid hsl(12, 60%, 50%);
+}
+
   .item-btn {
     bottom: 105px;
     min-width: 160px;
